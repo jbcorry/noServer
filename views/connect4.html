@@ -1,0 +1,34 @@
+<div class='info-container' id='connect'>
+  <div class='logo'>
+    <img  class= 'logo' src='/images/connect-4-logo.png'>
+  </div>
+  <div class='players'>
+    <div class='players'>
+        <div>{{p1}}</div><div>{{p2}}</div>
+    </div>
+      <div>
+        <!-- <input placeholder="Player 1" ng-model='p1'> -->
+       <!-- <h3 id='p1'>{{player1.name}}</h3> -->
+    </div>
+      <div>
+        <!-- <input placeholder="Player 2" ng-model='p2'> -->
+       <!-- <h3 id='p2'>{{player2.name}}</h3> -->
+    </div>
+
+  </div>
+  <div class='game-board'>
+    <div class='side-bar1'>
+    </div>
+    <div class='connect-container'>
+
+        <connect4></connect4>
+
+    </div>
+    <div class='side-bar2'>
+    </div>
+  </div>
+  <button class='new-game' ng-click='createNewGame()'>New Game</button>
+  <input class='new-game' id="resetButton" type="button" value="Reset" ng-click="reset()" />
+  <footy></footy>
+
+</div>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app='noServer'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='styles/styles.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css"> -->
+
+
+    <title>Jake's Site</title>
+  </head>
+  <body class='main-container' ng-controller='mainCtrl'>
+
+    <section class='main-top-container'>
+
+      <div class='tabs-container'>
+          <a href="https://www.linkedin.com/in/jacob-corry-8a024282"><img class='my-pic' src='/images/personalPhoto.jpg'></a>
+          <!-- <span class='name'>Jake</span> -->
+          <div class='tabs' ng-repeat='tab in tabs'><a id='tab-links' ui-sref='{{tab.view}}'>{{tab.name}}</a></div>
+      </div>
+      <div>
+        <ui-view></ui-view>
+      </div>
+    </section>
+    <section class='mid-info-container'>
+
+
+
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.4/angularfire.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script> -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js'></script> -->
+
+    <script src='app.js'></script>
+    <script src='/controller/mainCtrl.js'></script>
+    <script src='/service/mainService.js'></script>
+    <script src='/controller/aboutCtrl.js'></script>
+    <script src='/controller/contactCtrl.js'></script>
+    <script src='/controller/resumeCtrl.js'></script>
+    <script src='/controller/connect4Ctrl.js'></script>
+    <script src='/controller/portCtrl.js'></script>
+    <script src='/directives/connect4Directive.js'></script>
+    <script src='/connect4-stuff/connect4Service.js'></script>
+    <script src='/directives/footerDirective.js'></script>
+    <script src='/controller/nameCtrl.js'></script>
+    <script src='/service/nameSvc.js'></script>
+
+  </body>
+</html>

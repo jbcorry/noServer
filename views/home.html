@@ -1,0 +1,31 @@
+<div class='home-container'>
+<div  class='info-container' id='home'>
+  <strong id='desc'><h3 id='home-info'>Jake Corry</h3><br>developer in the making</strong><br/>
+
+</div>
+<div class='intro'>
+
+    <h3>Why programming?</h3></br>
+    <div class='why-text'>
+      Why not?  I'd been going to a university for three years and still couldn't show anything for my hours and hours of mindless study and robotic test-taking.  Though I learned many much facts, I had no confidence in my skills to do something valuable in society.  Someone talked to me about trying a coding boot camp and it sounded like a great fit.  I took a few computer science classes in school, but the theory involved didn't spark my interest.  As I've really started coding, it's been great to make and do something that will actually benefit people instead of just getting me a good grade on a test. Check out the tabs or keep reading to see what I've made so far!
+    </div>
+    <div class='tabs-container' id='info-tabs'>
+        <!-- <span class='name'>Jake</span> -->
+        <div class='tabs' ng-repeat='tab in tabs'><a id='tab-links' ui-sref='{{tab.view}}'>{{tab.name}}</a></div>
+    </div>
+</div>
+
+
+<div class='recent-projects'>
+
+      <div class='project' style='background: url({{project.image}}); background-size: cover;' ng-repeat='project in projects'>
+
+        <a id='project-link' href="{{project.path}}">{{project.name}}</a>
+
+      </div>
+
+</div>
+<div class='home-foot'>
+<footy id='footer-home'></footy>
+</div>
+</div>

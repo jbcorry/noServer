@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+  font-family: 'Oswald';
+}
+#tab-links {
+  text-decoration: none;
+  color: white;
+}
+
+.my-pic {
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  margin-left: 10px;
+  z-index: 1;
+  opacity: 1;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+
+
+}
+
+.main-top-container {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  align-items: flex-start;;
+
+
+
+
+}
+
+.tabs-container {
+  width: 100%;
+  height: 55px;
+  background: #768da4;
+  opacity: .8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;;
+  top:0;
+  z-index: 1;
+
+}
+
+#info-tabs {
+  width: 100%;
+  height: 55;
+  background-color: #d5cfcb;
+  position: relative;
+}
+
+.name {
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.tabs {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin: auto;
+
+
+}
+
+.info-container {
+  width: 100%;
+  height: 500px;
+  margin: auto 0;
+  background: url(../images/phillipines.jpg) center bottom;
+  top: 0;
+  position:absolute;
+  background-size: cover;
+  margin-top: 55px;
+}
+
+.about {
+  margin: 20px 10px;
+  margin-bottom: 20px;
+}
+
+
+
+#home-info {
+  text-align: center;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#desc {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.intro {
+  background-color: #d5cfcb;
+  top: 500px;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  text-align: center;
+  padding-top: 20px;
+
+  margin: auto;
+}
+
+.why-text {
+  margin: 20px 5%;
+  vertical-align: middle;
+}
+
+.recent-projects {
+  top: 850px;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  color: black;
+  margin: 5px;
+  display: flex;
+
+}
+
+#project-link {
+  text-decoration: none;
+  color: #869ebe;
+  background-color: white;
+  border-radius: 3px;
+  vertical-align: middle;
+
+}
+
+.project {
+  width: 250px;
+  height: 250px;
+  background-size: auto;
+  margin: auto;
+
+
+
+}
+
+
+
+.send-email-btn {
+  text-decoration: none;
+  border-radius: 0px;
+  background-color: #706e69;
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  box-shadow: 0 0 5px;
+}
+
+.projects {
+  margin: auto;
+  margin-left: 20px;
+}
+
+.port-projects {
+  margin-bottom: 20px;
+}
+
+#home {
+
+  text-align: center;
+
+}
+
+#email {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Oswald';
+}
+
+#contact-me {
+  text-align: center;
+  padding-top: 80px;
+  background-image: url('/images/cali-sunset.jpeg');
+  color: white;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+#resume {
+  text-align: center;
+  background-image: url('/images/africa-pool2.jpg');
+  color: white;
+  width: 100vw;
+  height: 1200px;
+
+}
+
+#about {
+  background-image: url('/images/red-clouds.jpeg');
+  color: white;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#port {
+  background-image: url('/images/africa-pano.jpeg');
+  color: white;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#footer-home {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #768da4;
+  opacity: .8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #768da4;
+  opacity: .8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-item {
+  color: white;
+}
+
+i {
+  color: white;
+}
+
+/*  css for connect4  */
+
+#connect {
+  width: 100vw;
+  height: 700px;
+  margin: 55px auto 0;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+
+.game-board {
+  display: flex;
+  justify-content: center;}
+
+.connect-container {
+  width: 464px;
+  height: 400px;
+  margin-left: 0;
+  margin-top: 10px;
+  box-shadow: 0px 5px 5px #968300;
+  text-align: center;
+
+
+
+
+
+
+}
+
+.logo {
+  margin: auto;
+  /*box-shadow: 5px 5px 5px gray;*/
+}
+
+.side-bar1 {
+  width: 50px;
+  height: 450px;
+  background-color: #0088cd;
+  margin-left: 10%;
+  box-shadow: -5px 5px 10px #162769;
+  border-radius: 8px;
+
+
+}
+
+.side-bar2 {
+  width: 50px;
+  height: 450px;
+  background-color: #0088cd;
+  margin-right: 10%;
+  box-shadow: 5px 5px 10px #162769;
+  float: left;
+  border-radius: 8px;
+}
+
+.circle {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 6px;
+    margin: auto;
+    /*-moz-box-shadow:    10px 10px 10px 10px #fae207;
+    -webkit-box-shadow: 10px 10px 10px 10px  #fae207;*/
+    box-shadow:         0px 0px 30px 10px #fae207;
+  }
+
+.new-game {
+  background-color: #0088cd;
+  color: white;
+  border-radius: 7px;
+}
+
+.players {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  height: 50px;
+  width: 60%;
+}
+#player {
+  font-size: 24px;
+  z-index: 2;
+}
